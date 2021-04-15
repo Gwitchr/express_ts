@@ -80,4 +80,4 @@ export const USER_MESSAGE = {
     es: 'Domicilio añadido',
     en: 'Address added'
   }
-};
+} as const;

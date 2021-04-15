@@ -36,14 +36,14 @@ export const TEMPLATE = {
   DEMO: 'demo',
   NEW_ORDER: 'new_order',
   NEW_ORDER_ADMIN: 'new_order_admin'
-};
+} as const;
 
 export const MAIL_SUBJECTS = {
   NEW_ORDER: {
     es: 'Nueva orden',
     en: 'New Order'
   }
-};
+} as const;
 
 export const API_URL =
   process.env.NODE_ENV === 'development'
