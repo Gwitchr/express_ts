@@ -1,0 +1,96 @@
+{{> top_main}} {{> header}}
+
+<!-- Email Body : BEGIN -->
+<table
+  cellspacing="0"
+  cellpadding="0"
+  border="0"
+  align="center"
+  bgcolor="#fefefe"
+  width="100%"
+  style="max-width: 600px;"
+>
+  <!-- Hero Image, Flush : BEGIN -->
+  <tr>
+    <td class="full-width-image" bgcolor="#fefefe" align="center">
+      <img
+        src="https://res.cloudinary.com/n12-mx/image/upload/v1595136260/tucarta.menu/mail/hero.png"
+        width="600"
+        alt="alt_text"
+        border="0"
+        style="width: 100%; max-width: 600px; height: auto;"
+      />
+    </td>
+  </tr>
+  <!-- Hero Image, Flush : END -->
+
+  <!-- 1 Column Text : BEGIN -->
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td
+            style="
+              padding: 50px;
+              font-family: sans-serif;
+              font-size: 15px;
+              mso-height-rule: exactly;
+              line-height: 20px;
+              color: #3c3c3c;
+            "
+          >
+            <table>
+              <tr>
+                <td style="padding: 10px 10px 30px; text-align: center; font-size: 16px;">
+                  ¡Hola {{email}}! <br />
+                  Gracias por escoger TuCarta.Menu, para activar tu cuenta y empezar a publicar tu menú ¡accede al
+                  siguiente link!
+                  <br />
+                  <br />
+                  <b style="color: #302f3d;">
+                    <a href="{{url}}">
+                      Activar cuenta
+                    </a>
+                  </b>
+                  <br />
+                  <small style="color: #888888;">
+                    Da click o pega en tu navegador este link <br>
+                    {{url}}
+                  </small>
+                </td>
+              </tr>
+            </table>
+
+            <b>TuCarta.Menu</b> es una herramienta que te ayudará a gestionar tu menú por medio de una plataforma digital. Crea un QR que se mantiene actualizado y muestra a tus clientes tu menú sin contacto y de manera segura. 
+            <br />
+            <br />
+            ¡Comparte en redes!
+            <br /><br />
+            {{> social}}
+
+            <br />
+            <hr style="border-top: 1px solid #fefefe; border-border-bottom: 0; border-left: 0;" />
+            Si tienes cualquier pregunta no dudes en contactarnos por teléfono al <br />
+            <a href="tel:+525514540568">551 454 0568</a>, envíanos un correo a
+            <a href="mailto:team@tucarta.menu">team@tucarta.menu</a> o contesta a este correo
+
+            <br />
+            <hr style="border-top: 1px solid #fefefe; border-border-bottom: 0; border-left: 0;" />
+            <small style="color: #888888;">
+              *TuCarta.Menu es propiedad de N12 Estudio. Recibes este correo porque creaste una
+              cuenta en tucarta.menu
+            </small>
+
+            <hr style="border-top: 1px solid #fefefe; border-border-bottom: 0; border-left: 0;" />
+
+            <br />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- 1 Column Text : BEGIN -->
+</table>
+<!-- Email Body : END -->
+
+{{> footer}}
